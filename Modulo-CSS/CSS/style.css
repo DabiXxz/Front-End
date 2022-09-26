@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --centerPosition: center;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cyan;
+}
+
+.w50{
+    width:50%;
+    padding: 0 10px;
+}
+
+.menu{text-align: right;}
+
+section.banner{
+    width:100%;
+    min-height:500px;
+    background-color: darkblue;
+    text-align:var(--centerPosition);
+    padding:50% 0;
+    color:white;
+}
+
+section.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: var(--centerPosition);
+    background-color: aqua;
+    padding:20px 0;
+    height: 50%;
+    display:flex
+}
+
+.w33{
+    width:33.3%;
+    padding:0 10px
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: var(--centerPosition);
+    background-color: rgb(150, 0, 184);
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        text-align: center;
+    }
+
+    .menu{
+        text-align: center;
+    }
+    .w33,.w50{
+        margin-bottom: 20px;
+        width:100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --boarderRpadrao:50px;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 100%;
+    border:1px solid black;
+    height: 500px;
+    background-color: cadetblue;
+    border-radius: var(--boarderRpadrao);
+}
+
+@media screen and (min-width:768px){
+    .box{
+        width:33.3%;
+    }
+}
+
+*/
+
+
+/*
+@media screen and (max-width: 768px){
+    .box{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .box{background-color: red;}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Variaveis
+
+:root{
+    --corPadrao:blue;
+    --widthPadrao: 300px;   
+    --heigthPadrao: 300px;
+    --borderRpadrao: 20px;
+    --fontSpadrao:20px;
+    --paddinPadrao:10px;
+}
+
+div{
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto ;
+    border-radius: var(--borderRpadrao);
+    font-size: var(--fontSpadrao);
+    color:white;
+    padding: var(--paddinPadrao);
+    max-height: var(--heigthPadrao);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+*/
+/* Formulario de contato
+body{
+    background-color: #00001c;
+}
+
+.form{
+    text-align: center;ss
+    padding: 20px;
+}
+
+.form img{
+    max-width: 200px;
+    width: 1000%;
+}
+
+.form input[type=text],
+.form input[type=email]{
+    padding-left: 10px;
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+    font-size: 20px;
+    width: 100%; height: 35px;
+    border:1px solid #ccc;
+    border-radius: 20px;
+}
+
+.form textarea{
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%; height: 35px;
+    border-radius: 20px;
+}
+
+.form input[type=submit]{
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    max-width: 500px;
+    font-size: 20px;
+    width: 100%; height: 35px;
+    cursor: pointer;
+    color:white;
+    background-color:#000058;
+    border:1px solid #ccc;   
+}
+*/
+/*
+@keyframes anim1{
+    0%{background-color: rgb(70, 0, 0);}
+    10%{background-color: rgb(124, 0, 0);}
+    20%{background-color: rgb(255, 0, 0);}
+    30%{background-color: rgb(255, 128, 0);}
+    40%{background-color: rgb(255, 128, 0);}
+    50%{background-color: rgb(234, 255, 0);}
+    60%{background-color: rgb(177, 177, 0);}
+    70%{background-color: rgb(0, 81, 54);}
+    80%{background-color: rgb(0, 107, 16);}
+    90%{background-color: rgb(0, 141, 14);}
+    100%{background-color: rgb(0, 255, 68);}
+
+}
+
+.teste{
+    width: 400px; height: 400px;
+    background-color: blueviolet;
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+*/
+
+
+
+
+
+
+/* Niveis de Importancia
+.teste > .teste2 > h2.title{
+    color:blue
+}
+
+h2.title{
+    color:rgb(5, 255, 89);
+}
+
+h2{
+    color:red !important;
+}
+*/
+
+/*
+p.paragrafo{
+    color:rgb(16, 152, 80);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.HelloWorld{
+    color:tomato;    
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+}
+#InvertWorld{    
+    color:aquamarine;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Style Script', cursive;
+}
+
+/*Para Especificar a Classe colocar [name= nome da classe]*/
+/*
+[name]{
+    color:rgb(255, 245, 108);
+    font-size: 30px;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+[name = Paragrafo2]{
+    color:rgb(253, 24, 196);
+    font-size: 30px;
+    font-style: italic;
+    font-family: fantasy;
+}
+[type=text]{
+    width: 900px;
+}
+[type=button]{
+    background-color:darkgray
+}
+
+.Danki{
+    background-color:rgb(108, 66, 156);
+}
+h2.OlaDanki{
+    
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    color: aliceblue;
+    font-size: 35px;
+}
+/*
+.bg{
+    width:100%;    height:400px; /*Pode se Utilizar px & %*/
+   /*
+    background-position: center;/*Pode ser Manipulado por pixeis tambem*/
+   /* background-size: cover;/*Deixa a Imagem Com melhor visualização no site*/
+   /* background-image: url('../Image/BackGround.jpg');
+    /*O comando a Baixo serve para não repetir a imagem*/
+    /*background-repeat: no-repeat;
+    background-color: black;/*Coloca Cor Escura caso a imagem seja pequena*/
+/*}*/
+/*
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.d1{
+    width:50%;
+    height:100px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    overflow:scroll;
+    background-color: blue;
+}
+
+.d2{
+    width:300;
+    height:300;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+}
+
+.d3{
+    width:300;
+    height:300;
+    display: inline-block;
+    background-color: rgb(17, 255, 0);
+}
+
+.container1{
+    display: flex;
+    /*flex-direction: column;*/
+    /*
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+/*
+.d4{
+    flex: 0.5;
+    height:100%;
+    background-color: rgb(89, 89, 255);
+}
+
+.d5{
+    flex: 0.5;
+    height:800px;
+    background-color: rgb(255, 65, 65);
+}
+
+.d6{
+    flex: 0.25;
+    height:300px;
+    background-color: rgb(146, 255, 138);
+}
+*/
